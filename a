@@ -1,0 +1,24 @@
+Su
+
+
+---Crear Usuario y Grupos
+
+groupadd Casa
+
+---Usuarios
+
+adduser Lucy
+adduser bryan
+
+---Agragar usuarios al Grupo
+
+adduser Lucy Casa
+adduser Bryan Casa
+
+---Cambiar el nombre del Grupo
+
+groupmod -n Familia Casa
+
+---Verificar Cambios
+
+cat /etc/group
